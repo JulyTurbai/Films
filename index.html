@@ -18,6 +18,11 @@
                     <form class="mov" name="userMovie">
                         <fieldset name="data">
                             <input id="1" class="mov-inp" type="text" name="movie" placeholder="Enter movie">
+                            <select class="mov-type" name="type" id="typeMovie">
+                                <option value="movie">Movie</option>
+                                <option value="series">Series</option>
+                                <option value="episode">Episode</option>
+                            </select>
                         </fieldset>
                         <button class="mov-but" type="submit">Search</button>
                     </form>
@@ -28,11 +33,14 @@
             <div class="decor">
             </div>
             <hr class="line">
+            <div class="result-box"></div>
             <div class="movies-cards">
             </div>
         </div>
         <div class="descr none"></div> 
-        <div class="pagination"></div>
+        <div class="pagination">
+            
+        </div>
     </div>   
     <script src="js/main.js"></script>
 </body>
